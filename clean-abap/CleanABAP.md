@@ -1810,7 +1810,7 @@ for example to disentangle that special purpose multi-method
 sort-aggregate algorithm from the rest of your class's code,
 
 - to enable mocking certain aspects of the global class,
-for example by extracing all database access to a separate local class
+for example by extracting all database access to a separate local class
 that can the be replaced with a test double in the unit tests.
 
 Local classes hinder reuse because they cannot be used elsewhere.
